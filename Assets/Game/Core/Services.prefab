@@ -50,9 +50,7 @@ MonoBehaviour:
   timestampSaveKey: timestamp
   privacyPolicySaveKey: privacyPolicy
   termsOfUseSaveKey: termsOfUse
-  savers:
-  - {fileID: 0}
-  - {fileID: 0}
+  savers: []
 --- !u!114 &2154296765782570651
 MonoBehaviour:
   m_ObjectHideFlags: 0
