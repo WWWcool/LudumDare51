@@ -109,13 +109,6 @@ namespace Settings
                     UnknownLanguageLoaded?.Invoke();
                 }
             }
-            
-            // TODO: remove this
-            var inst = IngameDebugConsole.DebugLogManager.Instance;
-            if(inst != null)
-            {
-                inst.PopupEnabled = _data.vibration;
-            }
 
             _localizationRepository.SetLanguage(Language);
         }
@@ -142,12 +135,6 @@ namespace Settings
         public bool InvertVibrationState()
         {
             _data.vibration = !_data.vibration;
-            // TODO: remove this
-            var inst = IngameDebugConsole.DebugLogManager.Instance;
-            if(inst != null)
-            {
-                inst.PopupEnabled = _data.vibration;
-            }
             return _data.vibration;
         }
 
