@@ -1,0 +1,1069 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 302ab5c4d9ad94d90a2ccabd6c4dd369, type: 3}
+  m_Name: LocalizationDatabase
+  m_EditorClassIdentifier: 
+  data:
+  - fieldName: enLanguageName
+  - fieldName: ruLanguageName
+  - fieldName: SettingsPopupMoreGames
+  - fieldName: SettingsPopupSound
+  - fieldName: SettingsPopupMusic
+  - fieldName: SettingsPopupVibro
+  - fieldName: SettingsPopupNotifications
+  - fieldName: SettingsPopupLanguage
+  - fieldName: SettingsPopupTutorial
+  - fieldName: SettingsPopupT&C
+  - fieldName: AgreeButtonText
+  - fieldName: OkButtonText
+  - fieldName: MergeBoardUndo
+  - fieldName: SourceNani
+  - fieldName: LocationName1
+  - fieldName: LocationName2
+  - fieldName: LocationName3
+  - fieldName: MergeChainInfoPopupCreatedAt
+  - fieldName: Often
+  - fieldName: Rare
+  - fieldName: FromStart
+  - fieldName: LevelWithCount
+  - fieldName: SettingsPopupTitle
+  - fieldName: ChooseLanguageTitle
+  - fieldName: MergeChainInfoPopupTitle
+  - fieldName: NewLevelTitle
+  - fieldName: GiftTitle
+  - fieldName: RewardTitle
+  - fieldName: WheatTitle
+  - fieldName: TermOfUseTitle
+  - fieldName: PrivacyPolicyTitle
+  - fieldName: OfferEnergyTitle
+  - fieldName: OfferCarrotsShopTitle
+  - fieldName: OfferCarrotsBuildTitle
+  - fieldName: Can'tBeImprovedTitle
+  - fieldName: MarketSaleTitle
+  - fieldName: CoinMarketTitle
+  - fieldName: CarrotMarketTitle
+  - fieldName: TakeRewardPT
+  - fieldName: TakeAdRewardPT
+  - fieldName: TiredBunniesPT
+  - fieldName: ProducesRationPT
+  - fieldName: HoldHint
+  - fieldName: ReadyHint
+  - fieldName: OfferCarrotsShopPT
+  - fieldName: OfferCarrotsBuildPT
+  - fieldName: SmallGiftName
+  - fieldName: MediumGiftName
+  - fieldName: LargeGiftName
+  - fieldName: CreatedInPT
+  - fieldName: CreatesPT
+  - fieldName: TakeBT
+  - fieldName: TakeAllBT
+  - fieldName: CartoonBT
+  - fieldName: UpgradeHoldButton
+  - fieldName: UpgradeFinalButton
+  - fieldName: PrivacyPolicyButton
+  - fieldName: NoThanksBT
+  - fieldName: ScarecrowHeader
+  - fieldName: ScarecrowDescription
+  - fieldName: WheatFieldHeader
+  - fieldName: WheatFieldDescription
+  - fieldName: BoxesWithWheatHeader
+  - fieldName: BoxesWithWheatDescription
+  - fieldName: HaystacksHeader
+  - fieldName: HaystacksDescription
+  - fieldName: MillHeader
+  - fieldName: MillDescription
+  - fieldName: GardenerHouseHeader
+  - fieldName: GardenerHouseDescription
+  - fieldName: PicnicHeader
+  - fieldName: PicnicDescription
+  - fieldName: AppleTreeHeader
+  - fieldName: AppleTreeDescription
+  - fieldName: BridgeHeader
+  - fieldName: BridgeDescription
+  - fieldName: CherryTreeHeader
+  - fieldName: CherryTreeDescription
+  - fieldName: SignHeader
+  - fieldName: SignDescription
+  - fieldName: CartHeader
+  - fieldName: CartDescription
+  - fieldName: consumable_softName
+  - fieldName: consumable_hardName
+  - fieldName: consumable_energyName
+  - fieldName: spawner_foodName
+  - fieldName: spawner_foodplateName
+  - fieldName: item_foodName
+  - fieldName: item_drinkName
+  - fieldName: spawner_toolsName
+  - fieldName: item_toolName
+  - fieldName: item_nailName
+  - fieldName: spawner_stonesName
+  - fieldName: item_stoneName
+  - fieldName: spawner_woodsName
+  - fieldName: item_woodName
+  - fieldName: item_fruitName
+  - fieldName: spawner_drawingsName
+  - fieldName: item_stationeryName
+  - fieldName: item_drawingName
+  - fieldName: box_goldName
+  - fieldName: box_tutorial_firstspawnerName
+  localizeSave:
+  - fieldName: enLanguageName
+    language: Default
+    value: EnLanguageName
+  - fieldName: enLanguageName
+    language: en
+    value: English
+  - fieldName: enLanguageName
+    language: ru
+    value: "\u0410\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u0438\u0439"
+  - fieldName: ruLanguageName
+    language: Default
+    value: RuLanguageName
+  - fieldName: ruLanguageName
+    language: en
+    value: Russian
+  - fieldName: ruLanguageName
+    language: ru
+    value: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+  - fieldName: SettingsPopupMoreGames
+    language: Default
+    value: SettingsPopupMoreGames
+  - fieldName: SettingsPopupMoreGames
+    language: en
+    value: Reset Saves
+  - fieldName: SettingsPopupMoreGames
+    language: ru
+    value: "\u0421\u0431\u0440\u043E\u0441 \u043F\u0440\u043E\u0433\u0440\u0435\u0441\u0441\u0430"
+  - fieldName: SettingsPopupSound
+    language: Default
+    value: SettingsPopupSound
+  - fieldName: SettingsPopupSound
+    language: en
+    value: Sound
+  - fieldName: SettingsPopupSound
+    language: ru
+    value: "\u0417\u0432\u0443\u043A"
+  - fieldName: SettingsPopupMusic
+    language: Default
+    value: SettingsPopupMusic
+  - fieldName: SettingsPopupMusic
+    language: en
+    value: Music
+  - fieldName: SettingsPopupMusic
+    language: ru
+    value: "\u041C\u0443\u0437\u044B\u043A\u0430"
+  - fieldName: SettingsPopupVibro
+    language: Default
+    value: SettingsPopupVibro
+  - fieldName: SettingsPopupVibro
+    language: en
+    value: Vibro
+  - fieldName: SettingsPopupVibro
+    language: ru
+    value: "\u0412\u0438\u0431\u0440\u0430\u0446\u0438\u044F"
+  - fieldName: SettingsPopupNotifications
+    language: Default
+    value: SettingsPopupNotifications
+  - fieldName: SettingsPopupNotifications
+    language: en
+    value: Notifications
+  - fieldName: SettingsPopupNotifications
+    language: ru
+    value: "\u0423\u0432\u0435\u0434\u043E\u043C\u043B\u0435\u043D\u0438\u044F"
+  - fieldName: SettingsPopupLanguage
+    language: Default
+    value: SettingsPopupLanguage
+  - fieldName: SettingsPopupLanguage
+    language: en
+    value: Language
+  - fieldName: SettingsPopupLanguage
+    language: ru
+    value: "\u042F\u0437\u044B\u043A"
+  - fieldName: SettingsPopupTutorial
+    language: Default
+    value: SettingsPopupTutorial
+  - fieldName: SettingsPopupTutorial
+    language: en
+    value: Tutorial
+  - fieldName: SettingsPopupTutorial
+    language: ru
+    value: "\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435"
+  - fieldName: SettingsPopupT&C
+    language: Default
+    value: SettingsPopupT&C
+  - fieldName: SettingsPopupT&C
+    language: en
+    value: Save slots
+  - fieldName: SettingsPopupT&C
+    language: ru
+    value: "\u0421\u043B\u043E\u0442\u044B \u0441\u043E\u0445\u0440\u0430\u043D\u0435\u043D\u0438\u044F"
+  - fieldName: AgreeButtonText
+    language: Default
+    value: AgreeButtonText
+  - fieldName: AgreeButtonText
+    language: en
+    value: Agree
+  - fieldName: AgreeButtonText
+    language: ru
+    value: "\u0421\u043E\u0433\u043B\u0430\u0441\u0438\u0442\u044C\u0441\u044F"
+  - fieldName: OkButtonText
+    language: Default
+    value: OkButtonText
+  - fieldName: OkButtonText
+    language: en
+    value: Ok
+  - fieldName: OkButtonText
+    language: ru
+    value: Ok
+  - fieldName: MergeBoardUndo
+    language: Default
+    value: MergeBoardUndo
+  - fieldName: MergeBoardUndo
+    language: en
+    value: Undo
+  - fieldName: MergeBoardUndo
+    language: ru
+    value: "\u041E\u0442\u043C\u0435\u043D\u0438\u0442\u044C"
+  - fieldName: SourceNani
+    language: Default
+    value: 'Gen: Hello world!
+
+      @stop'
+  - fieldName: SourceNani
+    language: en
+    value: 'Gen: Hello world!
+
+      @stop'
+  - fieldName: SourceNani
+    language: ru
+    value: "Gen: \u041F\u0440\u0438\u0432\u0435\u0442 \u043C\u0438\u0440!\n@stop"
+  - fieldName: LocationName1
+    language: Default
+    value: LocationName1
+  - fieldName: LocationName1
+    language: en
+    value: Home 1
+  - fieldName: LocationName1
+    language: ru
+    value: "\u041A\u0440\u0430\u0441\u0442\u0438 \u041A\u0440\u0430\u0431\u0441"
+  - fieldName: LocationName2
+    language: Default
+    value: LocationName2
+  - fieldName: LocationName2
+    language: en
+    value: Home 2
+  - fieldName: LocationName2
+    language: ru
+    value: "\u0414\u043E\u043C \u043A\u043E\u043B\u0445\u043E\u0437\u043D\u0438\u043A\u0430"
+  - fieldName: LocationName3
+    language: Default
+    value: LocationName3
+  - fieldName: LocationName3
+    language: en
+    value: Home 3
+  - fieldName: LocationName3
+    language: ru
+    value: "\u0421\u0435\u043B\u044C\u0441\u043A\u0438\u0439 \u0442\u0443\u0430\u043B\u0435\u0442"
+  - fieldName: MergeChainInfoPopupCreatedAt
+    language: Default
+    value: MergeChainInfoPopupCreatedAt
+  - fieldName: MergeChainInfoPopupCreatedAt
+    language: en
+    value: 'Created at:'
+  - fieldName: MergeChainInfoPopupCreatedAt
+    language: ru
+    value: "\u0421\u043E\u0437\u0434\u0430\u0435\u0442\u0441\u044F \u0432:"
+  - fieldName: Often
+    language: Default
+    value: Often
+  - fieldName: Often
+    language: en
+    value: Often
+  - fieldName: Often
+    language: ru
+    value: "\u0427\u0430\u0441\u0442\u043E"
+  - fieldName: Rare
+    language: Default
+    value: Rare
+  - fieldName: Rare
+    language: en
+    value: Rare
+  - fieldName: Rare
+    language: ru
+    value: "\u0420\u0435\u0434\u043A\u043E"
+  - fieldName: FromStart
+    language: Default
+    value: FromStart
+  - fieldName: FromStart
+    language: en
+    value: From start
+  - fieldName: FromStart
+    language: ru
+    value: "\u0421\u043E \u0441\u0442\u0430\u0440\u0442\u0430"
+  - fieldName: LevelWithCount
+    language: Default
+    value: '{0} lvl'
+  - fieldName: LevelWithCount
+    language: en
+    value: '{0} lvl'
+  - fieldName: LevelWithCount
+    language: ru
+    value: "{0} \u0443\u0440."
+  - fieldName: SettingsPopupTitle
+    language: Default
+    value: SettingsPopupTitle
+  - fieldName: SettingsPopupTitle
+    language: en
+    value: Settings
+  - fieldName: SettingsPopupTitle
+    language: ru
+    value: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
+  - fieldName: ChooseLanguageTitle
+    language: Default
+    value: ChooseLanguageTitle
+  - fieldName: ChooseLanguageTitle
+    language: en
+    value: 'Choose language:'
+  - fieldName: ChooseLanguageTitle
+    language: ru
+    value: "\u0412\u044B\u0431\u043E\u0440 \u044F\u0437\u044B\u043A\u0430:"
+  - fieldName: MergeChainInfoPopupTitle
+    language: Default
+    value: MergeChainInfoPopupTitle
+  - fieldName: MergeChainInfoPopupTitle
+    language: en
+    value: Merge chain
+  - fieldName: MergeChainInfoPopupTitle
+    language: ru
+    value: "\u0426\u0435\u043F\u043E\u0447\u043A\u0430 \u043C\u0435\u0440\u0436\u0430"
+  - fieldName: NewLevelTitle
+    language: Default
+    value: NewLevelTitle
+  - fieldName: NewLevelTitle
+    language: en
+    value: NEW LEVEL?!
+  - fieldName: NewLevelTitle
+    language: ru
+    value: "\u041D\u041E\u0412\u042B\u0419 \u0423\u0420\u041E\u0412\u0415\u041D\u042C?!"
+  - fieldName: GiftTitle
+    language: Default
+    value: GiftTitle
+  - fieldName: GiftTitle
+    language: en
+    value: A gift!?
+  - fieldName: GiftTitle
+    language: ru
+    value: "\u041F\u043E\u0434\u0430\u0440\u043E\u043A?"
+  - fieldName: RewardTitle
+    language: Default
+    value: RewardTitle
+  - fieldName: RewardTitle
+    language: en
+    value: REWARD
+  - fieldName: RewardTitle
+    language: ru
+    value: "\u041D\u0410\u0413\u0420\u0410\u0414\u0410"
+  - fieldName: WheatTitle
+    language: Default
+    value: WheatTitle
+  - fieldName: WheatTitle
+    language: en
+    value: Wheat
+  - fieldName: WheatTitle
+    language: ru
+    value: "\u041F\u0448\u0435\u043D\u0438\u0446\u0430"
+  - fieldName: TermOfUseTitle
+    language: Default
+    value: TermOfUseTitle
+  - fieldName: TermOfUseTitle
+    language: en
+    value: Term of use
+  - fieldName: TermOfUseTitle
+    language: ru
+    value: "\u0423\u0441\u043B\u043E\u0432\u0438\u044F \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F"
+  - fieldName: PrivacyPolicyTitle
+    language: Default
+    value: SettingsPopupPrivacyPolicy
+  - fieldName: PrivacyPolicyTitle
+    language: en
+    value: Privacy Policy
+  - fieldName: PrivacyPolicyTitle
+    language: ru
+    value: "\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u0441\u043A\u043E\u0435
+      \u0441\u043E\u0433\u043B\u0430\u0448\u0435\u043D\u0438\u0435"
+  - fieldName: OfferEnergyTitle
+    language: Default
+    value: OfferEnergyTitle
+  - fieldName: OfferEnergyTitle
+    language: en
+    value: Energy is over!
+  - fieldName: OfferEnergyTitle
+    language: ru
+    value: "\u042D\u043D\u0435\u0440\u0433\u0438\u044F \u043A\u043E\u043D\u0447\u0438\u043B\u0430\u0441\u044C!"
+  - fieldName: OfferCarrotsShopTitle
+    language: Default
+    value: OfferCarrotsShopTitle
+  - fieldName: OfferCarrotsShopTitle
+    language: en
+    value: So few carrots!
+  - fieldName: OfferCarrotsShopTitle
+    language: ru
+    value: "\u0422\u0430\u043A \u043C\u0430\u043B\u043E \u043C\u043E\u0440\u043A\u043E\u0432\u043E\u043A!"
+  - fieldName: OfferCarrotsBuildTitle
+    language: Default
+    value: OfferCarrotsBuildTitle
+  - fieldName: OfferCarrotsBuildTitle
+    language: en
+    value: Stocks of carrots are empty!
+  - fieldName: OfferCarrotsBuildTitle
+    language: ru
+    value: "\u0421\u043A\u043B\u0430\u0434 \u043C\u043E\u0440\u043A\u043E\u0432\u043E\u043A
+      \u043F\u0443\u0441\u0442!"
+  - fieldName: Can'tBeImprovedTitle
+    language: Default
+    value: Can'tBeImprovedTitle
+  - fieldName: Can'tBeImprovedTitle
+    language: en
+    value: Perfect can't be Improved
+  - fieldName: Can'tBeImprovedTitle
+    language: ru
+    value: "\u0411\u0435\u0437\u0443\u043F\u0440\u0435\u0447\u043D\u043E, \u043D\u0435\u043B\u044C\u0437\u044F
+      \u0443\u043B\u0443\u0447\u0448\u0438\u0442\u044C"
+  - fieldName: MarketSaleTitle
+    language: Default
+    value: MarketSaleTitle
+  - fieldName: MarketSaleTitle
+    language: en
+    value: Market Sale
+  - fieldName: MarketSaleTitle
+    language: ru
+    value: "\u0420\u0430\u0441\u043F\u0440\u043E\u0434\u0430\u0436\u0430"
+  - fieldName: CoinMarketTitle
+    language: Default
+    value: CoinMarketTitle
+  - fieldName: CoinMarketTitle
+    language: en
+    value: Coin Market
+  - fieldName: CoinMarketTitle
+    language: ru
+    value: "\u0420\u044B\u043D\u043E\u043A \u043C\u043E\u043D\u0435\u0442"
+  - fieldName: CarrotMarketTitle
+    language: Default
+    value: CarrotMarketTitle
+  - fieldName: CarrotMarketTitle
+    language: en
+    value: Carrot Market
+  - fieldName: CarrotMarketTitle
+    language: ru
+    value: "\u041C\u043E\u0440\u043A\u043E\u0432\u043D\u044B\u0439 \u0440\u044B\u043D\u043E\u043A"
+  - fieldName: TakeRewardPT
+    language: Default
+    value: TakeRewardPT
+  - fieldName: TakeRewardPT
+    language: en
+    value: Take the reward and keep playing. We love you!
+  - fieldName: TakeRewardPT
+    language: ru
+    value: "\u0412\u043E\u0437\u044C\u043C\u0438 \u043D\u0430\u0433\u0440\u0430\u0434\u0443
+      \u0438 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0439 \u0438\u0433\u0440\u0430\u0442\u044C.
+      \u041C\u044B \u0442\u0435\u0431\u044F \u043B\u044E\u0431\u0438\u043C!"
+  - fieldName: TakeAdRewardPT
+    language: Default
+    value: TakeAdRewardPT
+  - fieldName: TakeAdRewardPT
+    language: en
+    value: 'Watch the cartoon and get more:'
+  - fieldName: TakeAdRewardPT
+    language: ru
+    value: "\u041F\u043E\u0441\u043C\u043E\u0442\u0440\u0438 \u043C\u0443\u043B\u044C\u0442\u0438\u043A
+      \u0438 \u043F\u043E\u043B\u0443\u0447\u0438 \u0435\u0449\u0451:"
+  - fieldName: TiredBunniesPT
+    language: Default
+    value: TiredBunniesPT
+  - fieldName: TiredBunniesPT
+    language: en
+    value: Bunnies are tired and can't craft items yet.
+  - fieldName: TiredBunniesPT
+    language: ru
+    value: "\u0417\u0430\u0439\u0447\u0438\u043A\u0438 \u0443\u0441\u0442\u0430\u043B\u0438
+      \u0438 \u043F\u043E\u043A\u0430 \u043D\u0435 \u043C\u043E\u0433\u0443\u0442
+      \u0441\u043E\u0437\u0434\u0430\u0432\u0430\u0442\u044C \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u044B."
+  - fieldName: ProducesRationPT
+    language: Default
+    value: ProducesRationPT
+  - fieldName: ProducesRationPT
+    language: en
+    value: Produces a ration every 4 hours
+  - fieldName: ProducesRationPT
+    language: ru
+    value: "\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0438\u0442 \u043F\u0430\u0451\u043A
+      \u0440\u0430\u0437 \u0432 4 \u0447\u0430\u0441\u0430"
+  - fieldName: HoldHint
+    language: Default
+    value: HoldHint
+  - fieldName: HoldHint
+    language: en
+    value: Press and hold
+  - fieldName: HoldHint
+    language: ru
+    value: "\u0417\u0430\u0436\u043C\u0438"
+  - fieldName: ReadyHint
+    language: Default
+    value: ReadyHint
+  - fieldName: ReadyHint
+    language: en
+    value: Ready
+  - fieldName: ReadyHint
+    language: ru
+    value: "\u0413\u043E\u0442\u043E\u0432\u043E"
+  - fieldName: OfferCarrotsShopPT
+    language: Default
+    value: OfferCarrotsShopPT
+  - fieldName: OfferCarrotsShopPT
+    language: en
+    value: "Oh, no! Looks like we don\u2019t have enough carrots."
+  - fieldName: OfferCarrotsShopPT
+    language: ru
+    value: "\u041E, \u043D\u0435\u0442! \u041F\u043E\u0445\u043E\u0436\u0435 \u0447\u0442\u043E
+      \u043D\u0430\u043C \u043D\u0435 \u0445\u0432\u0430\u0442\u0430\u0435\u0442
+      \u043C\u043E\u0440\u043A\u043E\u0432\u043E\u043A."
+  - fieldName: OfferCarrotsBuildPT
+    language: Default
+    value: OfferCarrotsBuildPT
+  - fieldName: OfferCarrotsBuildPT
+    language: en
+    value: The building is almost upgraded! This is all that we need!
+  - fieldName: OfferCarrotsBuildPT
+    language: ru
+    value: "\u0417\u0434\u0430\u043D\u0438\u0435 \u043F\u043E\u0447\u0442\u0438 \u0443\u043B\u0443\u0447\u0448\u0435\u043D\u043D\u043E!
+      \u042D\u0442\u043E \u0432\u0441\u0451 \u0447\u0442\u043E \u043D\u0430\u043C
+      \u043D\u0435 \u0445\u0432\u0430\u0442\u0430\u0435\u0442!"
+  - fieldName: SmallGiftName
+    language: Default
+    value: SmallGiftName
+  - fieldName: SmallGiftName
+    language: en
+    value: Small gift
+  - fieldName: SmallGiftName
+    language: ru
+    value: "\u041C\u0430\u043B\u0435\u043D\u044C\u043A\u0438\u0439 \u043F\u043E\u0434\u0430\u0440\u043E\u043A"
+  - fieldName: MediumGiftName
+    language: Default
+    value: MediumGiftName
+  - fieldName: MediumGiftName
+    language: en
+    value: Medium gift
+  - fieldName: MediumGiftName
+    language: ru
+    value: "\u0421\u0440\u0435\u0434\u043D\u0438\u0439 \u043F\u043E\u0434\u0430\u0440\u043E\u043A"
+  - fieldName: LargeGiftName
+    language: Default
+    value: LargeGiftName
+  - fieldName: LargeGiftName
+    language: en
+    value: Large gift
+  - fieldName: LargeGiftName
+    language: ru
+    value: "\u0421\u0443\u043F\u0435\u0440 \u043F\u043E\u0434\u0430\u0440\u043E\u043A"
+  - fieldName: CreatedInPT
+    language: Default
+    value: CreatedInPT
+  - fieldName: CreatedInPT
+    language: en
+    value: 'Created in:'
+  - fieldName: CreatedInPT
+    language: ru
+    value: "\u0421\u043E\u0437\u0434\u0430\u0451\u0442\u0441\u044F \u0432:"
+  - fieldName: CreatesPT
+    language: Default
+    value: CreatesPT
+  - fieldName: CreatesPT
+    language: en
+    value: 'Creates:'
+  - fieldName: CreatesPT
+    language: ru
+    value: "\u0421\u043E\u0437\u0434\u0430\u0451\u0442:"
+  - fieldName: TakeBT
+    language: Default
+    value: TakeBT
+  - fieldName: TakeBT
+    language: en
+    value: Take!
+  - fieldName: TakeBT
+    language: ru
+    value: "\u0412\u0437\u044F\u0442\u044C!"
+  - fieldName: TakeAllBT
+    language: Default
+    value: TakeAllBT
+  - fieldName: TakeAllBT
+    language: en
+    value: Take all!
+  - fieldName: TakeAllBT
+    language: ru
+    value: "\u0412\u0437\u044F\u0442\u044C \u0432\u0441\u0451!"
+  - fieldName: CartoonBT
+    language: Default
+    value: CartoonBT
+  - fieldName: CartoonBT
+    language: en
+    value: Cartoon!
+  - fieldName: CartoonBT
+    language: ru
+    value: "\u041C\u0443\u043B\u044C\u0442\u0438\u043A!"
+  - fieldName: UpgradeHoldButton
+    language: Default
+    value: UpgradeHoldButton
+  - fieldName: UpgradeHoldButton
+    language: en
+    value: Upgrade
+  - fieldName: UpgradeHoldButton
+    language: ru
+    value: "\u0423\u043B\u0443\u0447\u0448\u0438\u0442\u044C"
+  - fieldName: UpgradeFinalButton
+    language: Default
+    value: UpgradeFinalButton
+  - fieldName: UpgradeFinalButton
+    language: en
+    value: Complete
+  - fieldName: UpgradeFinalButton
+    language: ru
+    value: "\u0417\u0430\u0432\u0435\u0440\u0448\u0438\u0442\u044C"
+  - fieldName: PrivacyPolicyButton
+    language: Default
+    value: PrivacyPolicyButton
+  - fieldName: PrivacyPolicyButton
+    language: en
+    value: Privacy Policy
+  - fieldName: PrivacyPolicyButton
+    language: ru
+    value: "\u0421\u043E\u0433\u043B\u0430\u0448\u0435\u043D\u0438\u0435"
+  - fieldName: NoThanksBT
+    language: Default
+    value: NoThanksBT
+  - fieldName: NoThanksBT
+    language: en
+    value: No thanks
+  - fieldName: NoThanksBT
+    language: ru
+    value: "\u041D\u0435\u0442 \u0441\u043F\u0430\u0441\u0438\u0431\u043E"
+  - fieldName: ScarecrowHeader
+    language: Default
+    value: ScarecrowHeader
+  - fieldName: ScarecrowHeader
+    language: en
+    value: Scarecrow
+  - fieldName: ScarecrowHeader
+    language: ru
+    value: "\u041F\u0443\u0433\u0430\u043B\u043E"
+  - fieldName: ScarecrowDescription
+    language: Default
+    value: ScarecrowDescription
+  - fieldName: ScarecrowDescription
+    language: en
+    value: Scarecrow helps defend the hay
+  - fieldName: ScarecrowDescription
+    language: ru
+    value: "\u041F\u0443\u0433\u0430\u0435\u0442 \u0432\u043E\u0440\u043E\u043D,
+      \u0437\u0430\u0449\u0438\u0449\u0430\u0435\u0442 \u0443\u0440\u043E\u0436\u0430\u0439"
+  - fieldName: WheatFieldHeader
+    language: Default
+    value: WheatFieldHeader
+  - fieldName: WheatFieldHeader
+    language: en
+    value: Wheat Field
+  - fieldName: WheatFieldHeader
+    language: ru
+    value: "\u041F\u0448\u0435\u043D\u0438\u0447\u043D\u043E\u0435 \u043F\u043E\u043B\u0435"
+  - fieldName: WheatFieldDescription
+    language: Default
+    value: WheatFieldDescription
+  - fieldName: WheatFieldDescription
+    language: en
+    value: Gives wheat to bake the bread
+  - fieldName: WheatFieldDescription
+    language: ru
+    value: "\u041F\u043E\u043B\u0435. \u041F\u0448\u0435\u043D\u0438\u0447\u043D\u043E\u0435.
+      \u0411\u043E\u043B\u044C\u0448\u043E\u0435 \u0438 \u043A\u0440\u0430\u0441\u0438\u0432\u043E\u0435."
+  - fieldName: BoxesWithWheatHeader
+    language: Default
+    value: BoxesWithWheatHeader
+  - fieldName: BoxesWithWheatHeader
+    language: en
+    value: Boxes with wheat
+  - fieldName: BoxesWithWheatHeader
+    language: ru
+    value: "\u0425\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0435 \u043F\u0448\u0435\u043D\u0438\u0446\u044B"
+  - fieldName: BoxesWithWheatDescription
+    language: Default
+    value: BoxesWithWheatDescription
+  - fieldName: BoxesWithWheatDescription
+    language: en
+    value: Keeps the wheat
+  - fieldName: BoxesWithWheatDescription
+    language: ru
+    value: "\u0417\u0434\u0435\u0441\u044C \u0445\u0440\u0430\u043D\u0438\u0442\u0441\u044F
+      \u043F\u0448\u0435\u043D\u0438\u0446\u0430. \u0427\u0442\u043E \u0437\u0434\u0435\u0441\u044C
+      \u0432\u043E\u043E\u0431\u0449\u0435 \u043D\u0443\u0436\u043D\u043E \u043F\u0438\u0441\u0430\u0442\u044C?"
+  - fieldName: HaystacksHeader
+    language: Default
+    value: HaystacksHeader
+  - fieldName: HaystacksHeader
+    language: en
+    value: Haystacks
+  - fieldName: HaystacksHeader
+    language: ru
+    value: "\u0421\u0442\u043E\u0433\u0438 \u0441\u0435\u043D\u0430"
+  - fieldName: HaystacksDescription
+    language: Default
+    value: HaystacksDescription
+  - fieldName: HaystacksDescription
+    language: en
+    value: Someone will move it to boxes later
+  - fieldName: HaystacksDescription
+    language: ru
+    value: "\u041D\u0430\u043F\u0438\u0448\u0438\u0442\u0435 \u0437\u0434\u0435\u0441\u044C
+      \u0447\u0442\u043E-\u043D\u0438\u0431\u0443\u0434\u044C \u0441\u0430\u043C\u0438,
+      \u043F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430."
+  - fieldName: MillHeader
+    language: Default
+    value: MillHeader
+  - fieldName: MillHeader
+    language: en
+    value: Mill
+  - fieldName: MillHeader
+    language: ru
+    value: "\u041C\u0435\u043B\u044C\u043D\u0438\u0446\u0430"
+  - fieldName: MillDescription
+    language: Default
+    value: MillDescription
+  - fieldName: MillDescription
+    language: en
+    value: Grinds wheat
+  - fieldName: MillDescription
+    language: ru
+    value: "\u0427\u0442\u043E \u0434\u0435\u043B\u0430\u044E\u0442 \u043A\u043E\u0444\u0435\u0439\u043D\u044B\u0435
+      \u0437\u0451\u0440\u043D\u0430 \u043F\u0435\u0440\u0435\u0434 \u0441\u043C\u0435\u0440\u0442\u044C\u044E?"
+  - fieldName: GardenerHouseHeader
+    language: Default
+    value: GardenerHouseHeader
+  - fieldName: GardenerHouseHeader
+    language: en
+    value: Gardener House
+  - fieldName: GardenerHouseHeader
+    language: ru
+    value: "\u0414\u043E\u043C \u0421\u0430\u0434\u043E\u0432\u043D\u0438\u043A\u0430"
+  - fieldName: GardenerHouseDescription
+    language: Default
+    value: GardenerHouseDescription
+  - fieldName: GardenerHouseDescription
+    language: en
+    value: The gardener lives here
+  - fieldName: GardenerHouseDescription
+    language: ru
+    value: "\u0417\u0434\u0435\u0441\u044C \u0436\u0438\u0432\u0451\u0442 \u0441\u0430\u0434\u043E\u0432\u043D\u0438\u043A"
+  - fieldName: PicnicHeader
+    language: Default
+    value: PicnicHeader
+  - fieldName: PicnicHeader
+    language: en
+    value: Picnic
+  - fieldName: PicnicHeader
+    language: ru
+    value: "\u041F\u0438\u043A\u043D\u0438\u043A"
+  - fieldName: PicnicDescription
+    language: Default
+    value: PicnicDescription
+  - fieldName: PicnicDescription
+    language: en
+    value: Great place to relax
+  - fieldName: PicnicDescription
+    language: ru
+    value: "\u041E\u0442\u043B\u0438\u0447\u043D\u043E\u0435 \u043C\u0435\u0441\u0442\u043E
+      \u0434\u043B\u044F \u043E\u0442\u0434\u044B\u0445\u0430"
+  - fieldName: AppleTreeHeader
+    language: Default
+    value: AppleTreeHeader
+  - fieldName: AppleTreeHeader
+    language: en
+    value: Apple Tree
+  - fieldName: AppleTreeHeader
+    language: ru
+    value: "\u042F\u0431\u043B\u043E\u043D\u044F"
+  - fieldName: AppleTreeDescription
+    language: Default
+    value: AppleTreeDescription
+  - fieldName: AppleTreeDescription
+    language: en
+    value: Provides apples during every summer. And you can hide in the shade
+  - fieldName: AppleTreeDescription
+    language: ru
+    value: "\u0421\u043D\u0430\u0431\u0436\u0430\u0435\u0442 \u044F\u0431\u043B\u043E\u043A\u0430\u043C\u0438
+      \u043D\u0430 \u043F\u0440\u043E\u0442\u044F\u0436\u0435\u043D\u0438\u0438 \u043A\u0430\u0436\u0434\u043E\u0433\u043E
+      \u043B\u0435\u0442\u0430. \u0410 \u0435\u0449\u0451 \u043C\u043E\u0436\u043D\u043E
+      \u0441\u043F\u0440\u044F\u0442\u0430\u0442\u044C\u0441\u044F \u0432 \u0442\u0435\u043D\u0438."
+  - fieldName: BridgeHeader
+    language: Default
+    value: BridgeHeader
+  - fieldName: BridgeHeader
+    language: en
+    value: Bridge
+  - fieldName: BridgeHeader
+    language: ru
+    value: "\u041C\u043E\u0441\u0442\u0438\u043A"
+  - fieldName: BridgeDescription
+    language: Default
+    value: BridgeDescription
+  - fieldName: BridgeDescription
+    language: en
+    value: Can be used to cross the river
+  - fieldName: BridgeDescription
+    language: ru
+    value: "\u041F\u043E \u043D\u0435\u043C\u0443 \u043C\u043E\u0436\u043D\u043E
+      \u043F\u0435\u0440\u0435\u0441\u0435\u0447\u044C \u0440\u0435\u043A\u0443"
+  - fieldName: CherryTreeHeader
+    language: Default
+    value: CherryTreeHeader
+  - fieldName: CherryTreeHeader
+    language: en
+    value: Cherry Tree
+  - fieldName: CherryTreeHeader
+    language: ru
+    value: "\u0412\u0438\u0448\u043D\u044F"
+  - fieldName: CherryTreeDescription
+    language: Default
+    value: CherryTreeDescription
+  - fieldName: CherryTreeDescription
+    language: en
+    value: Very sweet berries
+  - fieldName: CherryTreeDescription
+    language: ru
+    value: "\u041E\u0447\u0435\u043D\u044C \u0441\u043B\u0430\u0434\u043A\u0438\u0435
+      \u044F\u0433\u043E\u0434\u044B"
+  - fieldName: SignHeader
+    language: Default
+    value: SignHeader
+  - fieldName: SignHeader
+    language: en
+    value: Sign
+  - fieldName: SignHeader
+    language: ru
+    value: "\u0417\u043D\u0430\u043A"
+  - fieldName: SignDescription
+    language: Default
+    value: SignDescription
+  - fieldName: SignDescription
+    language: en
+    value: Road sign
+  - fieldName: SignDescription
+    language: ru
+    value: "\u0414\u043E\u0440\u043E\u0436\u043D\u044B\u0439 \u0437\u043D\u0430\u043A"
+  - fieldName: CartHeader
+    language: Default
+    value: CartHeader
+  - fieldName: CartHeader
+    language: en
+    value: Cart
+  - fieldName: CartHeader
+    language: ru
+    value: "\u041F\u043E\u0432\u043E\u0437\u043A\u0430"
+  - fieldName: CartDescription
+    language: Default
+    value: CartDescription
+  - fieldName: CartDescription
+    language: en
+    value: Wood cart
+  - fieldName: CartDescription
+    language: ru
+    value: "\u0414\u0435\u0440\u0435\u0432\u044F\u043D\u0430\u044F \u043F\u043E\u0432\u043E\u0437\u043A\u0430"
+  - fieldName: consumable_softName
+    language: Default
+    value: consumable_soft
+  - fieldName: consumable_softName
+    language: en
+    value: Carrots
+  - fieldName: consumable_softName
+    language: ru
+    value: "\u041C\u043E\u0440\u043A\u043E\u0432\u043A\u0438"
+  - fieldName: consumable_hardName
+    language: Default
+    value: consumable_hard
+  - fieldName: consumable_hardName
+    language: en
+    value: Diamond Carrots
+  - fieldName: consumable_hardName
+    language: ru
+    value: "\u0410\u043B\u043C\u0430\u0437\u043D\u044B\u0435 \u041C\u043E\u0440\u043A\u043E\u0432\u043A\u0438"
+  - fieldName: consumable_energyName
+    language: Default
+    value: consumable_energy
+  - fieldName: consumable_energyName
+    language: en
+    value: Bundles of Energy
+  - fieldName: consumable_energyName
+    language: ru
+    value: "\u041F\u0443\u0447\u043E\u043A \u042D\u043D\u0435\u0440\u0433\u0438\u0438"
+  - fieldName: spawner_foodName
+    language: Default
+    value: spawner_food
+  - fieldName: spawner_foodName
+    language: en
+    value: Kitchen
+  - fieldName: spawner_foodName
+    language: ru
+    value: "\u041A\u0443\u0445\u043D\u044F"
+  - fieldName: spawner_foodplateName
+    language: Default
+    value: spawner_foodplate
+  - fieldName: spawner_foodplateName
+    language: en
+    value: Delicious Dish
+  - fieldName: spawner_foodplateName
+    language: ru
+    value: "\u0411\u043B\u044E\u0434\u043E"
+  - fieldName: item_foodName
+    language: Default
+    value: item_food
+  - fieldName: item_foodName
+    language: en
+    value: Food
+  - fieldName: item_foodName
+    language: ru
+    value: "\u0412\u043A\u0443\u0441\u043D\u044F\u0442\u0438\u043D\u0430"
+  - fieldName: item_drinkName
+    language: Default
+    value: item_drink
+  - fieldName: item_drinkName
+    language: en
+    value: Drink
+  - fieldName: item_drinkName
+    language: ru
+    value: "\u041D\u0430\u043F\u0438\u0442\u043A\u0438"
+  - fieldName: spawner_toolsName
+    language: Default
+    value: spawner_tools
+  - fieldName: spawner_toolsName
+    language: en
+    value: Tool Container
+  - fieldName: spawner_toolsName
+    language: ru
+    value: "\u042F\u0449\u0438\u043A \u0441 \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u0430\u043C\u0438"
+  - fieldName: item_toolName
+    language: Default
+    value: item_tool
+  - fieldName: item_toolName
+    language: en
+    value: Tool
+  - fieldName: item_toolName
+    language: ru
+    value: "\u0418\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u044B"
+  - fieldName: item_nailName
+    language: Default
+    value: item_nail
+  - fieldName: item_nailName
+    language: en
+    value: Nail
+  - fieldName: item_nailName
+    language: ru
+    value: "\u0413\u0432\u043E\u0437\u0434\u0438"
+  - fieldName: spawner_stonesName
+    language: Default
+    value: spawner_stones
+  - fieldName: spawner_stonesName
+    language: en
+    value: Mine
+  - fieldName: spawner_stonesName
+    language: ru
+    value: "\u0428\u0430\u0445\u0442\u0430"
+  - fieldName: item_stoneName
+    language: Default
+    value: item_stone
+  - fieldName: item_stoneName
+    language: en
+    value: Ore
+  - fieldName: item_stoneName
+    language: ru
+    value: "\u0420\u0443\u0434\u0430"
+  - fieldName: spawner_woodsName
+    language: Default
+    value: spawner_woods
+  - fieldName: spawner_woodsName
+    language: en
+    value: Tree
+  - fieldName: spawner_woodsName
+    language: ru
+    value: "\u0414\u0435\u0440\u0435\u0432\u043E"
+  - fieldName: item_woodName
+    language: Default
+    value: item_wood
+  - fieldName: item_woodName
+    language: en
+    value: Wood
+  - fieldName: item_woodName
+    language: ru
+    value: "\u0414\u0440\u0435\u0432\u0435\u0441\u0438\u043D\u0430"
+  - fieldName: item_fruitName
+    language: Default
+    value: item_fruit
+  - fieldName: item_fruitName
+    language: en
+    value: Fruit
+  - fieldName: item_fruitName
+    language: ru
+    value: "\u0424\u0440\u0443\u043A\u0442\u044B"
+  - fieldName: spawner_drawingsName
+    language: Default
+    value: spawner_drawings
+  - fieldName: spawner_drawingsName
+    language: en
+    value: Organizer
+  - fieldName: spawner_drawingsName
+    language: ru
+    value: "\u041E\u0440\u0433\u0430\u043D\u0430\u0439\u0437\u0435\u0440"
+  - fieldName: item_stationeryName
+    language: Default
+    value: item_stationery
+  - fieldName: item_stationeryName
+    language: en
+    value: Stationary
+  - fieldName: item_stationeryName
+    language: ru
+    value: "\u041A\u0430\u043D\u0446\u0435\u043B\u044F\u0440\u0438\u044F"
+  - fieldName: item_drawingName
+    language: Default
+    value: item_drawing
+  - fieldName: item_drawingName
+    language: en
+    value: Blueprints
+  - fieldName: item_drawingName
+    language: ru
+    value: "\u0427\u0435\u0440\u0442\u0435\u0436\u0438"
+  - fieldName: box_goldName
+    language: Default
+    value: box_gold
+  - fieldName: box_goldName
+    language: en
+    value: Carrot box
+  - fieldName: box_goldName
+    language: ru
+    value: "\u042F\u0449\u0438\u043A \u0441 \u043C\u043E\u0440\u043A\u043E\u0432\u044C\u044E"
+  - fieldName: box_tutorial_firstspawnerName
+    language: Default
+    value: box_tutorial_firstspawner
+  - fieldName: box_tutorial_firstspawnerName
+    language: en
+    value: Tool Container
+  - fieldName: box_tutorial_firstspawnerName
+    language: ru
+    value: "\u042F\u0449\u0438\u043A \u0441 \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u0430\u043C\u0438"
+  languageList:
+  - en
+  - ru

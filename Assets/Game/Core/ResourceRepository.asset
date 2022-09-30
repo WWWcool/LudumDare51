@@ -1,0 +1,337 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d228cfefd5174673970cea807c7889c8, type: 3}
+  m_Name: ResourceRepository
+  m_EditorClassIdentifier: 
+  defaultUnit: {fileID: 21300000, guid: 841941b8bd9b4405da1599493223c0bc, type: 3}
+  extraUnitImages:
+  - id: box_gold_5
+    sprite: {fileID: -9035456165595999183, guid: 91710c9de103d41759297b465abd801e, type: 3}
+  - id: box_gold_10
+    sprite: {fileID: -9035456165595999183, guid: 91710c9de103d41759297b465abd801e, type: 3}
+  - id: box_gold_25
+    sprite: {fileID: -9035456165595999183, guid: 91710c9de103d41759297b465abd801e, type: 3}
+  - id: box_gold_50
+    sprite: {fileID: -9035456165595999183, guid: 91710c9de103d41759297b465abd801e, type: 3}
+  - id: box_gold_100
+    sprite: {fileID: -9035456165595999183, guid: 91710c9de103d41759297b465abd801e, type: 3}
+  - id: box_gold_200
+    sprite: {fileID: -9035456165595999183, guid: 91710c9de103d41759297b465abd801e, type: 3}
+  - id: box_energy_small
+    sprite: {fileID: -6185345479313349119, guid: 91710c9de103d41759297b465abd801e, type: 3}
+  - id: box_energy_medium
+    sprite: {fileID: -6185345479313349119, guid: 91710c9de103d41759297b465abd801e, type: 3}
+  - id: box_energy_big
+    sprite: {fileID: -6185345479313349119, guid: 91710c9de103d41759297b465abd801e, type: 3}
+  - id: box_tutorial_gift_0
+    sprite: {fileID: -9035456165595999183, guid: 91710c9de103d41759297b465abd801e, type: 3}
+  - id: box_tutorial_gift_1
+    sprite: {fileID: -9035456165595999183, guid: 91710c9de103d41759297b465abd801e, type: 3}
+  - id: box_tutorial_gift_2
+    sprite: {fileID: -9035456165595999183, guid: 91710c9de103d41759297b465abd801e, type: 3}
+  - id: box_tutorial_gift_3
+    sprite: {fileID: -9035456165595999183, guid: 91710c9de103d41759297b465abd801e, type: 3}
+  - id: safe_tutorial_gift_0
+    sprite: {fileID: -6185345479313349119, guid: 91710c9de103d41759297b465abd801e, type: 3}
+  - id: safe_tutorial_gift_1
+    sprite: {fileID: -6185345479313349119, guid: 91710c9de103d41759297b465abd801e, type: 3}
+  - id: safe_gift_C_0
+    sprite: {fileID: -9035456165595999183, guid: 91710c9de103d41759297b465abd801e, type: 3}
+  - id: safe_gift_C_1
+    sprite: {fileID: -9035456165595999183, guid: 91710c9de103d41759297b465abd801e, type: 3}
+  - id: safe_gift_D_0
+    sprite: {fileID: -9035456165595999183, guid: 91710c9de103d41759297b465abd801e, type: 3}
+  - id: box_level_up_0
+    sprite: {fileID: 21300000, guid: ce70815c94835cf4b9d4ccf27d82f00a, type: 3}
+  - id: box_level_up_1
+    sprite: {fileID: 21300000, guid: ce70815c94835cf4b9d4ccf27d82f00a, type: 3}
+  - id: box_level_up_2
+    sprite: {fileID: 21300000, guid: ce70815c94835cf4b9d4ccf27d82f00a, type: 3}
+  - id: box_level_up_3
+    sprite: {fileID: 21300000, guid: ce70815c94835cf4b9d4ccf27d82f00a, type: 3}
+  - id: box_level_up_4
+    sprite: {fileID: 21300000, guid: ce70815c94835cf4b9d4ccf27d82f00a, type: 3}
+  unitImages:
+  - id: Boxes_0
+    sprite: {fileID: -6185345479313349119, guid: 91710c9de103d41759297b465abd801e, type: 3}
+  - id: Boxes_1
+    sprite: {fileID: -9035456165595999183, guid: 91710c9de103d41759297b465abd801e, type: 3}
+  - id: Boxes_2
+    sprite: {fileID: -9034177534490309204, guid: 91710c9de103d41759297b465abd801e, type: 3}
+  - id: box_level
+    sprite: {fileID: 21300000, guid: ce70815c94835cf4b9d4ccf27d82f00a, type: 3}
+  - id: box_tutorial_firstspawner_0
+    sprite: {fileID: 8368032163846360150, guid: 8edbbd938729b482a997bf46494f72c7, type: 3}
+  - id: box_tutorial_firstspawner_1
+    sprite: {fileID: 5409461394019195832, guid: 8edbbd938729b482a997bf46494f72c7, type: 3}
+  - id: box_tutorial_firstspawner_2
+    sprite: {fileID: -7502395897057441651, guid: 8edbbd938729b482a997bf46494f72c7, type: 3}
+  - id: box_tutorial_firstspawner_3
+    sprite: {fileID: -5616048773888958805, guid: 8edbbd938729b482a997bf46494f72c7, type: 3}
+  - id: box_tutorial_firstspawner_4
+    sprite: {fileID: -1809173255918914936, guid: 8edbbd938729b482a997bf46494f72c7, type: 3}
+  - id: consumable_energy_0
+    sprite: {fileID: 416242263812408116, guid: 282b5800f1e57485691d474a293e773b, type: 3}
+  - id: consumable_energy_1
+    sprite: {fileID: 6565708905796108691, guid: 282b5800f1e57485691d474a293e773b, type: 3}
+  - id: consumable_energy_2
+    sprite: {fileID: 8348249825046504658, guid: 282b5800f1e57485691d474a293e773b, type: 3}
+  - id: consumable_energy_3
+    sprite: {fileID: -3052589332027436594, guid: 282b5800f1e57485691d474a293e773b, type: 3}
+  - id: consumable_energy_4
+    sprite: {fileID: 257807515478310997, guid: 282b5800f1e57485691d474a293e773b, type: 3}
+  - id: consumable_hard_0
+    sprite: {fileID: -8874686881457155899, guid: cd77f6fc9c9404666ba86242c966f51f, type: 3}
+  - id: consumable_hard_1
+    sprite: {fileID: -4649648819628813925, guid: cd77f6fc9c9404666ba86242c966f51f, type: 3}
+  - id: consumable_hard_2
+    sprite: {fileID: -3228508665232790025, guid: cd77f6fc9c9404666ba86242c966f51f, type: 3}
+  - id: consumable_hard_3
+    sprite: {fileID: 555214388775360377, guid: cd77f6fc9c9404666ba86242c966f51f, type: 3}
+  - id: consumable_hard_4
+    sprite: {fileID: 6539835780526647603, guid: cd77f6fc9c9404666ba86242c966f51f, type: 3}
+  - id: consumable_soft_0
+    sprite: {fileID: 7214430096103833728, guid: 1123e5407f9d547b7aea1ee31a0a3d49, type: 3}
+  - id: consumable_soft_1
+    sprite: {fileID: -7953088083072972035, guid: 1123e5407f9d547b7aea1ee31a0a3d49, type: 3}
+  - id: consumable_soft_2
+    sprite: {fileID: 723621992215900359, guid: 1123e5407f9d547b7aea1ee31a0a3d49, type: 3}
+  - id: consumable_soft_3
+    sprite: {fileID: -6695246496901004387, guid: 1123e5407f9d547b7aea1ee31a0a3d49, type: 3}
+  - id: consumable_soft_4
+    sprite: {fileID: 5049796893208849814, guid: 1123e5407f9d547b7aea1ee31a0a3d49, type: 3}
+  - id: item_crystal_0
+    sprite: {fileID: -4019009271813828503, guid: 33a94dedb7f38ba40ae43f31167a0f20, type: 3}
+  - id: item_crystal_1
+    sprite: {fileID: -6265004277237437025, guid: 33a94dedb7f38ba40ae43f31167a0f20, type: 3}
+  - id: item_crystal_2
+    sprite: {fileID: -7099347659786473438, guid: 33a94dedb7f38ba40ae43f31167a0f20, type: 3}
+  - id: item_crystal_3
+    sprite: {fileID: -1175827540096979013, guid: 33a94dedb7f38ba40ae43f31167a0f20, type: 3}
+  - id: item_crystal_4
+    sprite: {fileID: -3532927852349369914, guid: 33a94dedb7f38ba40ae43f31167a0f20, type: 3}
+  - id: item_crystal_5
+    sprite: {fileID: -3159540855042763131, guid: 33a94dedb7f38ba40ae43f31167a0f20, type: 3}
+  - id: item_drawing_0
+    sprite: {fileID: -4950306442358376367, guid: 010286646292ccc4faa1cb90a6c6de59, type: 3}
+  - id: item_drawing_1
+    sprite: {fileID: 8241958528477267605, guid: 010286646292ccc4faa1cb90a6c6de59, type: 3}
+  - id: item_drawing_2
+    sprite: {fileID: -1389480632904623670, guid: 010286646292ccc4faa1cb90a6c6de59, type: 3}
+  - id: item_drawing_3
+    sprite: {fileID: -8271012122626492765, guid: 010286646292ccc4faa1cb90a6c6de59, type: 3}
+  - id: item_drawing_4
+    sprite: {fileID: -2997296595246836717, guid: 010286646292ccc4faa1cb90a6c6de59, type: 3}
+  - id: item_drawing_5
+    sprite: {fileID: 3843001593026284893, guid: 010286646292ccc4faa1cb90a6c6de59, type: 3}
+  - id: item_drink_0
+    sprite: {fileID: -3982998240641504073, guid: 705b51a55af014e6e8c6eaf27cadbde1, type: 3}
+  - id: item_drink_1
+    sprite: {fileID: -1985171594928131926, guid: 705b51a55af014e6e8c6eaf27cadbde1, type: 3}
+  - id: item_drink_2
+    sprite: {fileID: -244198421666221884, guid: 705b51a55af014e6e8c6eaf27cadbde1, type: 3}
+  - id: item_drink_3
+    sprite: {fileID: -4301588950344753382, guid: 705b51a55af014e6e8c6eaf27cadbde1, type: 3}
+  - id: item_drink_4
+    sprite: {fileID: -2283187041677928627, guid: 705b51a55af014e6e8c6eaf27cadbde1, type: 3}
+  - id: item_drink_5
+    sprite: {fileID: 8729936583294193247, guid: 705b51a55af014e6e8c6eaf27cadbde1, type: 3}
+  - id: item_drink_6
+    sprite: {fileID: 8139839629774269607, guid: 705b51a55af014e6e8c6eaf27cadbde1, type: 3}
+  - id: item_drink_7
+    sprite: {fileID: 6044436034314460662, guid: 705b51a55af014e6e8c6eaf27cadbde1, type: 3}
+  - id: item_drink_8
+    sprite: {fileID: 5865978324528746177, guid: 705b51a55af014e6e8c6eaf27cadbde1, type: 3}
+  - id: item_food_0
+    sprite: {fileID: -4794479320532728345, guid: c8dadcc2cdfc34f33b6c376e4098691e, type: 3}
+  - id: item_food_1
+    sprite: {fileID: -3674125247388525031, guid: c8dadcc2cdfc34f33b6c376e4098691e, type: 3}
+  - id: item_food_2
+    sprite: {fileID: 76927204734568021, guid: c8dadcc2cdfc34f33b6c376e4098691e, type: 3}
+  - id: item_food_3
+    sprite: {fileID: 4496921615762410079, guid: c8dadcc2cdfc34f33b6c376e4098691e, type: 3}
+  - id: item_food_4
+    sprite: {fileID: -7250777520747815581, guid: c8dadcc2cdfc34f33b6c376e4098691e, type: 3}
+  - id: item_fruit_0
+    sprite: {fileID: -4543759628906256137, guid: b340460aaa8aa480ba48e763e4ef2f93, type: 3}
+  - id: item_fruit_1
+    sprite: {fileID: 8921884720983324063, guid: b340460aaa8aa480ba48e763e4ef2f93, type: 3}
+  - id: item_fruit_2
+    sprite: {fileID: 8358725407750806371, guid: b340460aaa8aa480ba48e763e4ef2f93, type: 3}
+  - id: item_fruit_3
+    sprite: {fileID: 2717653113855168871, guid: b340460aaa8aa480ba48e763e4ef2f93, type: 3}
+  - id: item_fruit_4
+    sprite: {fileID: -6641258139677543129, guid: b340460aaa8aa480ba48e763e4ef2f93, type: 3}
+  - id: item_nail_0
+    sprite: {fileID: 8726665647019148395, guid: e29827f5a319e48dc9a7d4a353cc1e54, type: 3}
+  - id: item_nail_1
+    sprite: {fileID: 2394942180291417495, guid: e29827f5a319e48dc9a7d4a353cc1e54, type: 3}
+  - id: item_nail_2
+    sprite: {fileID: 8347488064664961716, guid: e29827f5a319e48dc9a7d4a353cc1e54, type: 3}
+  - id: item_stationery_0
+    sprite: {fileID: -4359672843196623006, guid: d32ff91ce0010f742af677d8e2628940, type: 3}
+  - id: item_stationery_1
+    sprite: {fileID: -3938098059565395087, guid: d32ff91ce0010f742af677d8e2628940, type: 3}
+  - id: item_stationery_2
+    sprite: {fileID: 7544824686096226340, guid: d32ff91ce0010f742af677d8e2628940, type: 3}
+  - id: item_stationery_3
+    sprite: {fileID: -7928660413256157794, guid: d32ff91ce0010f742af677d8e2628940, type: 3}
+  - id: item_stationery_4
+    sprite: {fileID: -6468327571058968008, guid: d32ff91ce0010f742af677d8e2628940, type: 3}
+  - id: item_stationery_5
+    sprite: {fileID: 2766396344405291477, guid: d32ff91ce0010f742af677d8e2628940, type: 3}
+  - id: item_stationery_6
+    sprite: {fileID: 6542079919681611947, guid: d32ff91ce0010f742af677d8e2628940, type: 3}
+  - id: item_stationery_7
+    sprite: {fileID: 196991727480098318, guid: d32ff91ce0010f742af677d8e2628940, type: 3}
+  - id: item_stationery_8
+    sprite: {fileID: 7802014267634763163, guid: d32ff91ce0010f742af677d8e2628940, type: 3}
+  - id: item_stationery_9
+    sprite: {fileID: -2521690533909241278, guid: d32ff91ce0010f742af677d8e2628940, type: 3}
+  - id: item_stone_0
+    sprite: {fileID: -4152029986581356630, guid: be3737549998247c284e626200bcc4ae, type: 3}
+  - id: item_stone_1
+    sprite: {fileID: 6727820342507042925, guid: be3737549998247c284e626200bcc4ae, type: 3}
+  - id: item_stone_2
+    sprite: {fileID: 2629203782535921413, guid: be3737549998247c284e626200bcc4ae, type: 3}
+  - id: item_stone_3
+    sprite: {fileID: 8141104019913033551, guid: be3737549998247c284e626200bcc4ae, type: 3}
+  - id: item_stone_4
+    sprite: {fileID: -2196047646018727015, guid: be3737549998247c284e626200bcc4ae, type: 3}
+  - id: item_stone_5
+    sprite: {fileID: 7709957677523343139, guid: be3737549998247c284e626200bcc4ae, type: 3}
+  - id: item_tool_0
+    sprite: {fileID: -1221397025902870381, guid: 411ece092fe09419cb0796ec73c3fd9c, type: 3}
+  - id: item_tool_1
+    sprite: {fileID: -755255103221681695, guid: 411ece092fe09419cb0796ec73c3fd9c, type: 3}
+  - id: item_tool_2
+    sprite: {fileID: 3455123973664140630, guid: 411ece092fe09419cb0796ec73c3fd9c, type: 3}
+  - id: item_tool_3
+    sprite: {fileID: -689246935051199224, guid: 411ece092fe09419cb0796ec73c3fd9c, type: 3}
+  - id: item_tool_4
+    sprite: {fileID: -4299025491502809970, guid: 411ece092fe09419cb0796ec73c3fd9c, type: 3}
+  - id: item_tool_5
+    sprite: {fileID: 8241161155832852812, guid: 411ece092fe09419cb0796ec73c3fd9c, type: 3}
+  - id: item_tool_6
+    sprite: {fileID: -9147184373310653060, guid: 411ece092fe09419cb0796ec73c3fd9c, type: 3}
+  - id: item_tool_7
+    sprite: {fileID: 7624501928508065742, guid: 411ece092fe09419cb0796ec73c3fd9c, type: 3}
+  - id: item_tool_8
+    sprite: {fileID: 3145893301145760776, guid: 411ece092fe09419cb0796ec73c3fd9c, type: 3}
+  - id: item_tool_9
+    sprite: {fileID: -1151100141385438717, guid: 411ece092fe09419cb0796ec73c3fd9c, type: 3}
+  - id: item_wood_0
+    sprite: {fileID: 970044368265104436, guid: 80ccc9624a20f4caeb5b908975a9ddea, type: 3}
+  - id: item_wood_1
+    sprite: {fileID: 18607595627591701, guid: 80ccc9624a20f4caeb5b908975a9ddea, type: 3}
+  - id: item_wood_2
+    sprite: {fileID: 2599773234253439874, guid: 80ccc9624a20f4caeb5b908975a9ddea, type: 3}
+  - id: item_wood_3
+    sprite: {fileID: 6409242935198799627, guid: 80ccc9624a20f4caeb5b908975a9ddea, type: 3}
+  - id: item_wood_4
+    sprite: {fileID: -9189037759082349263, guid: 80ccc9624a20f4caeb5b908975a9ddea, type: 3}
+  - id: spawner_drawings_0
+    sprite: {fileID: 7517958960338555402, guid: 13d1e75f2b839f74285a22003712c282, type: 3}
+  - id: spawner_drawings_1
+    sprite: {fileID: 7520397790372427798, guid: 13d1e75f2b839f74285a22003712c282, type: 3}
+  - id: spawner_drawings_2
+    sprite: {fileID: -5764366360221621263, guid: 13d1e75f2b839f74285a22003712c282, type: 3}
+  - id: spawner_drawings_3
+    sprite: {fileID: -2507447632591091636, guid: 13d1e75f2b839f74285a22003712c282, type: 3}
+  - id: spawner_drawings_4
+    sprite: {fileID: 1978338245253178523, guid: 13d1e75f2b839f74285a22003712c282, type: 3}
+  - id: spawner_drawings_5
+    sprite: {fileID: -319234610447720532, guid: 13d1e75f2b839f74285a22003712c282, type: 3}
+  - id: spawner_food_0
+    sprite: {fileID: 607918608787135099, guid: 41710a190d4ba4417a877d6a0850b28b, type: 3}
+  - id: spawner_food_1
+    sprite: {fileID: -8431408298471986568, guid: 41710a190d4ba4417a877d6a0850b28b, type: 3}
+  - id: spawner_food_2
+    sprite: {fileID: 452357378793814967, guid: 41710a190d4ba4417a877d6a0850b28b, type: 3}
+  - id: spawner_food_3
+    sprite: {fileID: -5748476345993176323, guid: 41710a190d4ba4417a877d6a0850b28b, type: 3}
+  - id: spawner_food_4
+    sprite: {fileID: 5206764755743904198, guid: 41710a190d4ba4417a877d6a0850b28b, type: 3}
+  - id: spawner_food_5
+    sprite: {fileID: -1452717707640604270, guid: 41710a190d4ba4417a877d6a0850b28b, type: 3}
+  - id: spawner_foodplate_0
+    sprite: {fileID: -1495844757756694714, guid: ba738a3f50d054d59ae41366dc164a89, type: 3}
+  - id: spawner_foodplate_1
+    sprite: {fileID: 299895809802246122, guid: ba738a3f50d054d59ae41366dc164a89, type: 3}
+  - id: spawner_foodplate_2
+    sprite: {fileID: -9144597747065235016, guid: ba738a3f50d054d59ae41366dc164a89, type: 3}
+  - id: spawner_stones_0
+    sprite: {fileID: -6191174628018620856, guid: 922917930a7334b299d3dfa1b0a096f2, type: 3}
+  - id: spawner_stones_1
+    sprite: {fileID: -1563592358933584903, guid: 922917930a7334b299d3dfa1b0a096f2, type: 3}
+  - id: spawner_stones_2
+    sprite: {fileID: 3857055299556920585, guid: 922917930a7334b299d3dfa1b0a096f2, type: 3}
+  - id: spawner_stones_3
+    sprite: {fileID: -920869845944076035, guid: 922917930a7334b299d3dfa1b0a096f2, type: 3}
+  - id: spawner_stones_4
+    sprite: {fileID: -1753157826867838961, guid: 922917930a7334b299d3dfa1b0a096f2, type: 3}
+  - id: spawner_tools_0
+    sprite: {fileID: 8385447174018560543, guid: 8327686c14f0a43cc9f5bd33e691831c, type: 3}
+  - id: spawner_tools_1
+    sprite: {fileID: 7789799816606174005, guid: 8327686c14f0a43cc9f5bd33e691831c, type: 3}
+  - id: spawner_tools_2
+    sprite: {fileID: -4898053414513540863, guid: 8327686c14f0a43cc9f5bd33e691831c, type: 3}
+  - id: spawner_tools_3
+    sprite: {fileID: -1440741002494573132, guid: 8327686c14f0a43cc9f5bd33e691831c, type: 3}
+  - id: spawner_tools_4
+    sprite: {fileID: 1590982720388373499, guid: 8327686c14f0a43cc9f5bd33e691831c, type: 3}
+  - id: spawner_tools_5
+    sprite: {fileID: -1030787434607723074, guid: 8327686c14f0a43cc9f5bd33e691831c, type: 3}
+  - id: spawner_woods_0
+    sprite: {fileID: -6872727406888011257, guid: 704a08ef196244352aa604380de1e671, type: 3}
+  - id: spawner_woods_1
+    sprite: {fileID: 7654583170109506771, guid: 704a08ef196244352aa604380de1e671, type: 3}
+  - id: spawner_woods_2
+    sprite: {fileID: 3359836307516595251, guid: 704a08ef196244352aa604380de1e671, type: 3}
+  - id: spawner_woods_3
+    sprite: {fileID: -3982405192713550570, guid: 704a08ef196244352aa604380de1e671, type: 3}
+  - id: spawner_woods_4
+    sprite: {fileID: 2346719398273556870, guid: 704a08ef196244352aa604380de1e671, type: 3}
+  - id: spawner_woods_5
+    sprite: {fileID: 6638756157634454361, guid: 704a08ef196244352aa604380de1e671, type: 3}
+  locationViews:
+  - data: {fileID: 1550019279133857998, guid: dab644431874b42bebd9b26db5e2bd8e, type: 3}
+    id: GardenerHouse
+  - data: {fileID: 1550019279133857998, guid: 19dfd746d924d45a0b64b3e6d1eb1854, type: 3}
+    id: Village
+  - data: {fileID: 1550019279133857998, guid: ca55d69dba1124ca79f0497d959c51ba, type: 3}
+    id: "\u0421rossroad"
+  locationPointViews:
+  - data: {fileID: 6498499130039238847, guid: 3abdffd3871124d72a20e94c732a5a54, type: 3}
+    id: AppleTree
+  - data: {fileID: 6498499130039238847, guid: a9bee4672c7ae4a74a1a144d6c4e4e23, type: 3}
+    id: Bridge
+  - data: {fileID: 6498499130039238847, guid: 9236beeaaf54a4759b97e08b901eced9, type: 3}
+    id: CherryTree
+  - data: {fileID: 6498499130039238847, guid: 2df3573780c954638950b1541744b1b0, type: 3}
+    id: GardenerHouse
+  - data: {fileID: 6498499130039238847, guid: f65c97a1cee6a4bef9473c70b7b55728, type: 3}
+    id: Picnic
+  - data: {fileID: 6498499130039238847, guid: e6209839a8be44c9986b5ee3ee6fdf1b, type: 3}
+    id: BoxesWithWheat
+  - data: {fileID: 6498499130039238847, guid: d7bb2433d90af4514a2369bf7eaf2ec9, type: 3}
+    id: Haystacks
+  - data: {fileID: 6498499130039238847, guid: 7b4d0c6ac754b475eb25e360b16fa5a2, type: 3}
+    id: Mill
+  - data: {fileID: 6498499130039238847, guid: 1137c1f39e5ec400db9544c3a772a3e7, type: 3}
+    id: Scarecrow
+  - data: {fileID: 6498499130039238847, guid: 500a7d1b379c44433aaf5fd906a99969, type: 3}
+    id: WheatField
+  - data: {fileID: 6498499130039238847, guid: 3cc374ee0c6424e239a9ef4523f2f904, type: 3}
+    id: Cart
+  - data: {fileID: 6498499130039238847, guid: 05da40a39cf674888a4350047110302a, type: 3}
+    id: Sign

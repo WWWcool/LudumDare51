@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167dff2f3ca384b7386ccbb38d50638b, type: 3}
+  m_Name: ScriptableInstaller
+  m_EditorClassIdentifier: 
+  localizationRepository: {fileID: 11400000, guid: 661eb821403784aa9a03a325a7f13421, type: 2}
+  folderToScan: Assets/ScriptableObjects/Audio
+  soundSources: []
+  unitRepository: {fileID: 11400000, guid: 87326e7f36a2f465aa779c70fc9331af, type: 2}
+  mergeChainRepository: {fileID: 11400000, guid: d81c72f5b19ed47aeb1ce004b2936c37, type: 2}
+  startUnitRepository: {fileID: 11400000, guid: 803cc3f221e0149e7a2d1280b8f5f042, type: 2}
+  questRepository: {fileID: 11400000, guid: 2eb5d26b06fcf4a02bec64ad41c3a74f, type: 2}
+  questGroupRepository: {fileID: 11400000, guid: 0707aa21a6acb4e7b8bb3ebddbfa8b0e, type: 2}
+  questChainRepository: {fileID: 11400000, guid: 724aa017f005e45f794d292e32d75ce0, type: 2}
+  questGroupRequirementRepository: {fileID: 11400000, guid: 1ec3ee997ac3e41128588af95a315491, type: 2}
+  resourceRepository: {fileID: 11400000, guid: 829d17a1985094dee9cd3ee762403583, type: 2}
+  locationPointRepository: {fileID: 11400000, guid: 0db3582e6b59445ceaa67caab1dd1535, type: 2}
+  tutorialRepository: {fileID: 11400000, guid: 5311836d412484f609b882355ba91dd3, type: 2}
+  playerLevelRepository: {fileID: 11400000, guid: 179816273c162b34e9cec9fe6ca6393b, type: 2}
+  rewardRepository: {fileID: 11400000, guid: ecd5cb108528fe147bcbc827753ba140, type: 2}
+  giftRepository: {fileID: 11400000, guid: 556dd08dbc29e4757ac5e904a6c4a186, type: 2}
