@@ -35,7 +35,10 @@ namespace UI
 
         private void OnDisposed(PopupBaseCloseType obj)
         {
-            Debug.Log($"Log on popup close + again object id: {gameObject.GetInstanceID().ToString()}");
+            if(obj == PopupBaseCloseType.Close)
+            {
+                Debug.Log($"Log on popup close + again object id: {gameObject.GetInstanceID().ToString()}");
+            }
         }
     }
 }
