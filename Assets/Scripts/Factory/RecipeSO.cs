@@ -15,7 +15,7 @@ namespace Factory
         public float ProduceTime => produceTime;
         public Resource ResultResource => resultResource;
 
-        public bool CanProduce(List<Resource> sources)
+        public bool CanProduce(IReadOnlyList<Resource> sources)
         {
             if (resources.Count == 0) return true;
             if (resources.Count != sources.Count) return false;
@@ -34,15 +34,17 @@ namespace Factory
 
                 return res;
             }
+
+            var testSources = new List<Resource>(sources);
             
             foreach (var resource in resources)
             {
-                if (!sources.Contains(resource))
+                if (!testSources.Contains(resource))
                 {
                     return false;
                 }
 
-                sources.Remove(resource);
+                testSources.Remove(resource);
             }
             
             return true;

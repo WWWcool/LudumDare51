@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dda43422a90f47cb942c3d6083a63a7d, type: 3}
+  m_Name: Test3Behaviour
+  m_EditorClassIdentifier: 
+  recipes:
+  - {fileID: 11400000, guid: 533b44d65babe449bbe4656b9a78a211, type: 2}
+  - {fileID: 11400000, guid: 0a8f1ebba548d4d59ad7f1954b18d1d5, type: 2}
+  - {fileID: 11400000, guid: d9fa295eb28d24ef5a71a4666227623e, type: 2}
+  - {fileID: 11400000, guid: fe71bdc80332b45c1a441fd0698fd8e9, type: 2}
+  canPull: 0
