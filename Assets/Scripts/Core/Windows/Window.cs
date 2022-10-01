@@ -65,12 +65,12 @@ namespace Core.Windows
 
         protected void OnWindowOpen()
         {
-            _signalBus.Fire(new PopupOpenedSignal(WindowId));
+            // _signalBus.Fire(new PopupOpenedSignal(WindowId));
         }
 
         protected void OnWindowClose()
         {
-            _signalBus.Fire(new PopupClosedSignal(WindowId));
+            // _signalBus.Fire(new PopupClosedSignal(WindowId));
         }
 
         public override event EventHandler<ActivatableStateChangedEventArgs> ActivatableStateChangedEvent;

@@ -114,7 +114,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc21d6f372614e52855e1e405d44b7b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _windows: []
+  _windows:
+  - {fileID: 8454165191035147757, guid: 40a82dd2582ff46e4ac2825c6617bcfa, type: 3}
   _createdWindows: []
   canvas: {fileID: 0}
   _startSortingOrder: 100
